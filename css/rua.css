@@ -1,0 +1,24 @@
+/*CSS Rua*/
+
+.rua{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 10px;
+	height: 100px;
+	background: #353131f5;
+	border-top: 5px solid white;
+	
+}
+.rua > .faixa{
+	flex: 1;
+	height: 10px;
+	background-color: #ddd;
+}
+
+.calcada{
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	flex:1;
+}

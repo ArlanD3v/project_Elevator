@@ -1,0 +1,61 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Elevador</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/button.css">
+	<link rel="stylesheet" href="./css/arvore.css">
+	<link rel="stylesheet" href="./css/control_elevator.css">
+	<link rel="stylesheet" href="./css/predio.css">
+	<link rel="stylesheet" href="./css/rua.css">
+</head>
+
+<body class="container">
+	<!--Controle do elevador-->
+	<header class="controles">
+		<div class="mostrador">Térreo</div>
+		<button destino="t">T</button>
+		<button destino="1">1</button>
+		<button destino="2">2</button>
+		<button destino="3">3</button>
+		<button destino="4">4</button>
+		<button destino="5">5</button>
+		<button destino="6">6</button>
+	</header>
+
+	<!--Botões-->
+	<div class="respButtons">
+		<button onclick="addTrack()" class="add"> <img src="./assets/line.png" alt="Adicionar linha na pista"></button>
+		<button onclick="addTree()" class="add_tree"><img src="./assets/newArvore.png"
+				alt="Adicionar nova árvore"></button>
+		<button onclick="RemoverFaixas()" class="remove"><img src="./assets/line.png"
+				alt="Remover linha da pista"></button>
+		<button onclick="RemoveTree()" class="remove_tree"><img src="./assets/axe.png" alt=""></button>
+	</div>
+
+	<main class="calcada">
+		<div class="arvore"></div>
+
+		<div class="predio">
+			<div class="coluna" andares="6"></div>
+			<div class="poco">
+
+			</div>
+			<div class="coluna" andares="6"></div>
+		</div>
+
+		<div class="arvore"></div>
+
+	</main>
+
+	<footer class="rua" faixas="5">
+
+	</footer>
+
+</body>
+<script src="./js/criaFaixas.js"></script>
+<script src="./js/add_remove_tree_tracks.js"></script>
+<script src="./js/predio.js"></script>
+
+</html>

@@ -1,0 +1,61 @@
+.respButtons{
+	 display: inline-grid;   
+	 width: 7%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10%;
+}
+/*Pista*/
+.add{
+	display: flex;
+	background:gray;
+	padding: 8px;
+	width: 50px;
+	height: 50px;
+	font-family: cursive;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.remove{
+	display: flex;
+	background: rgb(234, 71, 71);
+	padding: 8px;
+	width: 50px;
+	height: 50px;
+	font-family: cursive;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+/* Arvore*/
+
+.add_tree{
+	display: flex;
+	background: greenyellow;
+	padding: 8px;
+	width: 50px;
+	height: 50px;
+	font-family: cursive;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.remove_tree{
+	display: flex;
+	background: rgb(160, 20, 20);
+	padding: 8px;
+	width: 50px;
+	height: 50px;
+	font-family: cursive;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
